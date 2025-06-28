@@ -1,15 +1,27 @@
 {
   "name": "bokx",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A meta-framework for building modular, scalable JS libraries",
+  "main": "dist/bokx.umd.js",
+  "module": "dist/bokx.esm.js",
+  "types": "dist/bokx.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "test": "echo \"No tests yet\""
   },
-  "keywords": [],
+  "keywords": [
+    "framework",
+    "plugin",
+    "modular",
+    "meta",
+    "bokx"
+  ],
   "author": "Aashutosh Uikey",
-  "license": "ISC",
-  "description": "",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "src"
+  ],
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.6",
     "@rollup/plugin-node-resolve": "^16.0.1",
